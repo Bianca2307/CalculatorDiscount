@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <h1>Promotion App</h1>
+        <main class="container">
+            <section class="grid-item">
+                <img src="./img/high-tops.svg" alt="shoes" />
+
+                <form action="">
+                    <button type="button" class="minus">-</button>
+                    <input
+                        type="number"
+                        id="quantity"
+                        placeholder="quantity"
+                        min="0"
+                    />
+                    <button type="button" class="plus">+</button>
+                    <button type="submit" id="add">Add</button>
+                </form>
+                <div id="output"></div>
+            </section>
+
+            <section class="grid-item">
+                <!--Table-->
+                <table>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Price/Discount</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>$99.99</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="dicount">-30%</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="dicount">-15%</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td class="dicount">-20%</td>
+                    </tr>
+                </table>
+                
+            </section>
+        </main>
+
+        <script src="checkedCode.js"></script>
+    </body>
+</html>
